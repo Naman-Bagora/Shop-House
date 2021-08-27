@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" href="Assignment.css">
+<script src="Assignment.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="Title">
+ <h2 style= "text-align:center;color:white"><b>Shop House</h2>
+ <nav class="navClass">
+    <ul>
+      <li><a class="active" href="index.html" style="color:white">Fashion</a>
+         <ul class="sub-menu">
+          <li>Men</li>
+          <li>Women</li> 
+         </ul> 
+         <span class="arrow">&#9660;</span>  
+      </li>
+     <li> <a href="grocery.html" style="color:white">Grocery</a>
+         <ul class="sub-menu">
+          <li>Atta</li>
+          <li>Sugar</li>
+          <li>Salt</li>
+          <li>Rice</li>
+          <li>Dal</li>
+          <li>Maggi</li>
+          <li>Oil</li>
+          <li>Sev</li> 
+         </ul> 
+         <span class="arrow">&#9660;</span>  
+      </li>
+      <li> <a href="electronics.html" style="color:white">Electronics</a>
+      <ul class="sub-menu">
+          <li>Refridgerator</li>
+          <li>Power Bank</li>
+          <li>TV</li>
+          <li>Oven</li>
+          <li>Grinder</li>
+          <li>Laptop</li>
+          <li>Headphones</li>
+          <li>Trimmer</li> 
+      </ul> 
+         <span class="arrow">&#9660;</span>
+      </li>
+      <li> <a href="mobile.html" style="color:white">Mobile</a>
+      <ul class="sub-menu">
+          <li>Oppo</li>
+          <li>Vivo</li>
+          <li>iPhone</li>
+          <li>Samsung</li>
+          <li>Nokia</li>
+          <li>OnePlus</li>
+          <li>MI</li>
+          <li>Xiaomi</li> 
+      </ul> 
+         <span class="arrow">&#9660;</span>
+      </li>
+      
+      <div class="cart">
+        <a href="cart.html"> <button style ="background-color:#D291BC"><i style ="background-color:#D291BC;color:black" class="fa fa-shopping-cart" ></i></button></a>
+      </div> 
+    </ul>  
+</nav>
+</head>
+<body onload="LoadProductView()" style="background-color:#957dad;" class="justify-content-center">
+<body style="background-color:#957dad">
+<div  id="ProductView" class="row justify-content-center" style="display:flex;margin:10px;border:solid 3px; border-color:#D291BC">
+<div id="ImageContainer" style="display:inline-block;margin:2px;border:solid 2px;border-color:#D291BC">
+</div>
+<div style="display:inline-block;margin:10px;text-align:center" >
+<h2 id="Product Name" style="color:white"></h2></br></br>
+<h4><label id="Product Description" style="color:white"></label></h4>
+</div>
+</div>
+<h3 style="margin:10px;text-align:left;color:white" id="Price"></h2>
+<button class="button1" style="font-size:24px;background-color:#D291BC;border:none;color:white;margin:10px;text-align:center"onclick=AddItemToCart()> Add To Cart</button>
+<button class="button1" style="font-size:24px;background-color:#D291BC;border:none;color:white;margin:10px;text-align:center" onclick=AddItemToCart(true)> Buy Now</button>
+</body>
+</html>

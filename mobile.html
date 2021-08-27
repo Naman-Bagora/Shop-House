@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="Assignment.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="Assignment.js"></script>
+</head>
+<body style="background-color:#957dad">
+<div class="Title">
+ <h2 style= "text-align:center;color:white";><b>Shop House</h2>
+ <nav class="navClass">
+ 
+    <ul>
+      <li><a href="index.html" style="color:white">Fashion</a>
+         <ul class="sub-menu">
+          <li>Men</li>
+          <li>Women</li> 
+         </ul> 
+         <span class="arrow">&#9660;</span>  
+      </li>
+     <li><a href="grocery.html" style="color:white">Grocery
+         <ul class="sub-menu">
+          <li>Atta</li>
+          <li>Sugar</li>
+          <li>Salt</li>
+          <li>Rice</li>
+          <li>Dal</li>
+          <li>Maggi</li>
+          <li>Oil</li>
+          <li>Sev</li> 
+         </ul> 
+         <span class="arrow">&#9660;</span>  
+      </li>
+      <li><a href="electronics.html" style="color:white">Electronics</a>
+      <ul class="sub-menu">
+          <li>Refridgerator</li>
+          <li>Power Bank</li>
+          <li>TV</li>
+          <li>Oven</li>
+          <li>Grinder</li>
+          <li>Laptop</li>
+          <li>Headphones</li>
+          <li>Trimmer</li> 
+      </ul> 
+         <span class="arrow">&#9660;</span>
+      </li>
+      <li><a class="active" href="mobile.html" style="color:white">Mobile</a>
+      <ul class="sub-menu">
+          <li>Oppo</li>
+          <li>Vivo</li>
+          <li>iPhone</li>
+          <li>Samsung</li>
+          <li>Nokia</li>
+          <li>OnePlus</li>
+          <li>MI</li>
+          <li>Xiaomi</li> 
+      </ul> 
+         <span class="arrow">&#9660;</span>
+      </li>
+    <div class="cart">
+     <a href="cart.html"> <button style="background-color:#D291BC"><i style ="color:black;background-color:#D291BC" class="fa fa-shopping-cart"></i></button></a>
+    </div> 
+    </ul>
+</div>
+
+<!--Mobile-->
+
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="margin:1px;padding-top:45px;border:4px solid;border-color:#D291BC">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m1" class="Gallery_img"  onclick=launchProductView("m1")>
+              <figure><img src="Images/iPhone11.jpg" alt="#"/></figure>
+              <h5 style="color:white">APPLE iPhone 11</h5>
+              <p>49999/-</p>
+              <p style="display:none">New Apple iPhone 11 (64GB) - Purple</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m2" class="Gallery_img"  onclick=launchProductView("m2")>
+              <figure><img src="Images/mi 11.jpg" alt="#"/></figure>
+              <h5 style="color:white">Mi 11 Lite</h5>
+              <p>23999/-</p>
+              <p style="display:none">Mi 11 Lite (Tuscany Coral, 128 GB)  (6 GB RAM)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m3" class="Gallery_img"  onclick=launchProductView("m3")>
+              <figure><img src="Images/nokia 3.4.png" alt="#"/></figure>
+              <h5 style="color:white">Nokia 3.4</h5>
+              <p>11999/-</p>
+              <p style="display:none">Nokia 3.4 (Fjord, 64 GB)  (4 GB RAM)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m4" class="Gallery_img"  onclick=launchProductView("m4")>
+              <figure><img src="Images/oppo a9.jpg" alt="#"/></figure>
+              <h5 style="color:white">Oppo A9</h5>
+              <p>14999/-</p>
+              <p style="display:none">OPPO A9 2020 (Space Purple, 128 GB)  (4 GB RAM)</p>
+            </div>
+          </div>
+          
+          </div>
+          <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m5" class="Gallery_img"  onclick=launchProductView("m5")>
+              <figure><img src="Images/one plus 9R.jpg" alt="#"/></figure>
+              <h5 style="color:white">OnePlus 9R</h5>
+              <p>39999/-</p>
+              <p style="display:none">OnePlus 9R 5G (Lake Blue, 8GB RAM, 128GB Storage) </p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m6" class="Gallery_img"  onclick=launchProductView("m6")>
+              <figure><img src="Images/samsung galaxy a7.jpg" alt="#"/></figure>
+              <h5 style="color:white">Samsung Galaxy A50</h5>
+              <p>23999/-</p>
+              <p style="display:none">SAMSUNG Galaxy A50 (Blue, 64 GB)  (6 GB RAM)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m7" class="Gallery_img"  onclick=launchProductView("m7")>
+              <figure><img src="Images/vivo v9.jpg" alt="#"/></figure>
+              <h5 style="color:white">Vivo V9</h5>
+              <p>18499/-</p>
+              <p style="display:none">vivo V9 (Sapphire Blue, 64 GB)  (4 GB RAM)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="m8" class="Gallery_img"  onclick=launchProductView("m8")>
+              <figure><img src="Images/Xiaomi Redmi K30.jpg" alt="#"/></figure>
+              <h5 style="color:white">Xiaomi Redmi K30</h5>
+              <p>16099/-</p>
+              <p style="display:none">Redmi K30 (Blue, 64 GB)  (6 GB RAM)</p>
+            </div>
+          </div>
+          </div>
+           
+          
+        </div>
+      </div>
+      
+    </div>
+</div>
+</div>
+</body>
+</html>

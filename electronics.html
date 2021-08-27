@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="Assignment.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="Assignment.js"></script>
+</head>
+<body style="background-color:#957dad">
+<div class="Title">
+ <h2 style="text-align:center;color:white";><b>Shop House</h2>
+
+   <nav class="navClass">
+
+    <ul>
+      <li><a href="index.html" style="color:white">Fashion</a>
+         <ul class="sub-menu">
+          <li>Men</li>
+          <li>Women</li> 
+         </ul> 
+         <span class="arrow">&#9660;</span>  
+      </li>
+     <li><a href="grocery.html" style="color:white">Grocery</a>
+         <ul class="sub-menu">
+          <li>Atta</li>
+          <li>Sugar</li>
+          <li>Salt</li>
+          <li>Rice</li>
+          <li>Dal</li>
+          <li>Maggi</li>
+          <li>Oil</li>
+          <li>Sev</li> 
+         </ul> 
+         <span class="arrow">&#9660;</span>  
+      </li>
+      <li><a class="active" href="electronics.html" style="color:white">Electronics</a>
+      <ul class="sub-menu">
+          <li>Refrigerator</li>
+          <li>Power Bank</li>
+          <li>TV</li>
+          <li>Oven</li>
+          <li>Grinder</li>
+          <li>Laptop</li>
+          <li>Headphones</li>
+          <li>Trimmer</li> 
+      </ul> 
+         <span class="arrow">&#9660;</span>
+      </li>
+      <li><a href="mobile.html" style="color:white">Mobile</a>
+      <ul class="sub-menu">
+          <li>Oppo</li>
+          <li>Vivo</li>
+          <li>iPhone</li>
+          <li>Samsung</li>
+          <li>Nokia</li>
+          <li>OnePlus</li>
+          <li>MI</li>
+          <li>Xiaomi</li> 
+      </ul> 
+         <span class="arrow">&#9660;</span>
+      </li>
+      <div class="cart">
+     <a href="cart.html"> <button style="background-color:#D291BC"><i style ="color:black;background-color:#D291BC" class="fa fa-shopping-cart"></i></button></a>
+    </div>
+    </ul> 
+    
+</div>
+
+<!--Electronics-->
+
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="margin:1px;padding-top:45px;border:4px solid;border-color:#D291BC">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e1" class="Gallery_img"  onclick=launchProductView("e1")>
+              <figure><img src="Images/fridge.jpg" alt="#"/></figure>
+              <h5 style="color:white">Godrej Refrigerator</h5>
+              <p>19999/-</p>
+              <p style="display:none">Godrej 236 L Frost Free Double Door 2 Star Refrigerator  (Scarlet Dremin, RF EON 236B 25 HI SC DR)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e2" class="Gallery_img"  onclick=launchProductView("e2")>
+              <figure><img src="Images/headphones.jpg" alt="#"/></figure>
+              <h5 style="color:white">Skullcandy Headphones</h5>
+              <p>9999/-</p>
+              <p style="display:none">Noise cancelling wireless headphones</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e3" class="Gallery_img"  onclick=launchProductView("e3")>
+              <figure><img src="Images/laptop.jpg" alt="#"/></figure>
+              <h5 style="color:white">Dell Laptop</h5>
+              <p>59999/-</p>
+              <p style="display:none">DELL Inspiron 3501 Core i5 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home) Inspiron 3501 Thin and Light Laptop  (15.6 inch, Black, 1.83 kg, With MS Office)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e4" class="Gallery_img"  onclick=launchProductView("e4")>
+              <figure><img src="Images/microwave oven.jpg" alt="#"/></figure>
+              <h5 style="color:white">Microwave Oven</h5>
+              <p>11499/-</p>
+              <p style="display:none">IFB 30 L Convection Microwave Oven  (30BRC2, Grey)</p>
+            </div>
+          </div>
+          
+          </div>
+          <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e5" class="Gallery_img"  onclick=launchProductView("e5")>
+              <figure><img src="Images/mixer grinder.jpg" alt="#"/></figure>
+              <h5 style="color:white">Mixer Grinder</h5>
+              <p>2699/-</p>
+              <p style="display:none">Prestige Atlas 550 W Mixer Grinder (3 Jars, Black and Blue)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e6" class="Gallery_img"  onclick=launchProductView("e6")>
+              <figure><img src="Images/power bank.jpg" alt="#"/></figure>
+              <h5 style="color:white">Power Bank(30000mAh)</h5>
+              <p>1399/-</p>
+              <p style="display:none">Mi 30000 mAh Power Bank (18 W, Fast Charging, Power Delivery 3.0)  (Blue, Lithium Polymer)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e7" class="Gallery_img"  onclick=launchProductView("e7")>
+              <figure><img src="Images/trimmer.jpg" alt="#"/></figure>
+              <h5 style="color:white">Phillips Trimmer</h5>
+              <p>1699/-</p>
+              <p style="display:none">PHILIPS BT1232/15 Runtime: 30 mins Trimmer for Men  (Blue)</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 margi_bott">
+            <div id="e8" class="Gallery_img"  onclick=launchProductView("e8")>
+              <figure><img src="Images/tv.jpg" alt="#"/></figure>
+              <h5 style="color:white">Lg Tv(42 inch)</h5>
+              <p>23985/-</p>
+              <p style="display:none">LG 106 cm (42 inch) Full HD LED TV  (42LF553A)</p>
+            </div>
+          </div>
+          </div>
+           
+          
+        </div>
+      </div>
+      
+    </div>
+</div>
+</div>
+</body>
+</html>
